@@ -19,16 +19,22 @@ function timer()
   glut.glutTimerFunc(300, timer, 0)
 end
 
+local window = {}
+window.title = 'My OpenGL Window'
+window.x = 200
+window.y = 200
+window.w = 600
+window.h = 400
+
 local main = function()
   local argc = ffi.new('int[1]', 0)
-  local argv = ffi.new('char *[?]', 0)
+  local argv = ffi.new 'char **'
   glut.glutInit(argc, argv)
 
-  glut.glutInitWindowPosition(200, 200)
-  glut.glutInitWindowSize(300, 200)
+  glut.glutInitWindowPosition(window.x, window.y)
+  glut.glutInitWindowSize(window.w, window.h)
 
-  local title = 'My OpenGL Window'
-  glut.glutCreateWindow(title)
+  glut.glutCreateWindow(window.title)
 
   glut.glutDisplayFunc(display)
 
