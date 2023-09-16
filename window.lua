@@ -1,3 +1,5 @@
+-- sample: open a window with GLUT
+
 local opengl = require 'opengl'
 local gl = opengl.gl
 local glut = opengl.glut

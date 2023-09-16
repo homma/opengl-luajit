@@ -1,3 +1,5 @@
+-- sample: glDrawArray
+
 local opengl = require 'opengl'
 local gl = opengl.gl
 local glut = opengl.glut
