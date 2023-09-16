@@ -10,7 +10,7 @@ Using OpenGL from LuaJIT on macOS
 
 #### Preparation
 
-generate the cdef file as below.
+generate necessary files as below.
 
 ````sh
 $ ./gen_opengl.sh
@@ -21,3 +21,7 @@ $ ./gen_opengl.sh
 ````sh
 $ luajit vertex_array.lua
 ````
+
+#### License
+
+MIT License except files generated in ext/ directory
