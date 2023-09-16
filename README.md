@@ -13,11 +13,11 @@ Using OpenGL from LuaJIT on macOS
 generate the cdef file as below.
 
 ````sh
-$ ./opengl_cdef.sh
+$ ./gen_opengl.sh
 ````
 
 #### Usage
 
 ````sh
-$ luajit window.lua
+$ luajit vertex_array.lua
 ````
