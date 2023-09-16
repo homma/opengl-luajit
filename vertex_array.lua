@@ -1,4 +1,4 @@
--- sample: glDrawArray
+-- sample: glDrawArrays
 
 local opengl = require 'opengl'
 local gl = opengl.gl
