@@ -24,4 +24,4 @@ $ luajit vertex_array.lua
 
 #### License
 
-MIT License except files generated in ext/ directory
+MIT License as in `LICENSE.opengl-luajit` except files generated in ext/ directory
