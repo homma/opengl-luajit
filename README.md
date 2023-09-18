@@ -19,7 +19,7 @@ $ ./gen_opengl.sh
 #### Usage
 
 ````sh
-$ luajit vertex_array.lua
+$ luajit samples/vertex_array.lua
 ````
 
 #### License
